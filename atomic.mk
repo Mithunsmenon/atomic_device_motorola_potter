@@ -20,6 +20,7 @@ $(call inherit-product, device/motorola/potter/full_potter.mk)
 
 # Inherit some common GZOSP stuff.
 $(call inherit-product, vendor/atomic/config/common_full_phone.mk)
+$(call inherit-product, vendor/atomic/config/caf_fw.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
